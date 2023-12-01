@@ -10,6 +10,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url("../../background.png");
+  background-size: cover;
 }
 
 .auth {
@@ -89,12 +91,16 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
 }
 
 li {
   border: 1px solid black;
   padding: 10px;
   margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.706);
 }
 
 h2 {
@@ -113,5 +119,15 @@ img {
 
 p {
   max-width: 400px;
-  font-size: 12px;
+  font-size: 15px;
+}
+
+.navbar button {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: #f2f2f2;
+  font-size: 26px;
+  border: none;
+  align-items: center;
 }
